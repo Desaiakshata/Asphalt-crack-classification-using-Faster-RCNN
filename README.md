@@ -44,13 +44,13 @@ git clone https://github.com/tensorflow/models.git
 
 3) Copy the training images to the Images folder and annotations to the Annotations folder within the dataset folder as shown in the folder structure below.
 
-On GPU2:
+On GPU:
 
-Method 1: Images are in Images folder, Annotations in Annotationsfolder and checkpoints in CPfolder.
+Method 1: Images are in Images folder, Annotations in Annotationsfolder and checkpoints in CP folder.
 
 For training using method 1 you have to change the paths in the config file and also class labels in label.pbtxt. 
 
-4) Folder Structure - files on GPU2 
+4) Folder Structure 
 ```
 |-home
     |-models 
